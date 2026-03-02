@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOG31 - Support</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #0a0a0f 0%, #12121a 100%);
+      color: #f1f5f9;
+      min-height: 100vh;
+      line-height: 1.7;
+    }
+    
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 60px 24px;
+    }
+    
+    .logo {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    
+    .logo-text {
+      font-family: Georgia, serif;
+      font-size: 48px;
+      font-weight: 300;
+      font-style: italic;
+      color: #6ee7b7;
+    }
+    
+    .logo-sub {
+      font-size: 24px;
+      font-weight: 600;
+      color: #6ee7b7;
+    }
+    
+    h1 {
+      font-size: 32px;
+      font-weight: 600;
+      margin-bottom: 8px;
+      color: #fff;
+    }
+    
+    .subtitle {
+      color: #64748b;
+      margin-bottom: 40px;
+    }
+    
+    h2 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 32px;
+      margin-bottom: 16px;
+      color: #6ee7b7;
+    }
+    
+    p {
+      margin-bottom: 16px;
+      color: #94a3b8;
+    }
+    
+    .faq-item {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid #1e1e2e;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+    
+    .faq-q {
+      font-weight: 600;
+      color: #f1f5f9;
+      margin-bottom: 8px;
+    }
+    
+    .faq-a {
+      color: #94a3b8;
+      margin: 0;
+    }
+    
+    .contact-card {
+      background: rgba(110, 231, 183, 0.1);
+      border: 1px solid rgba(110, 231, 183, 0.3);
+      border-radius: 16px;
+      padding: 32px;
+      text-align: center;
+      margin-top: 40px;
+    }
+    
+    .contact-card h3 {
+      color: #6ee7b7;
+      font-size: 18px;
+      margin-bottom: 16px;
+    }
+    
+    .contact-card p {
+      color: #f1f5f9;
+    }
+    
+    .contact-btn {
+      display: inline-block;
+      background: #6ee7b7;
+      color: #0a0a0f;
+      padding: 14px 32px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 600;
+      margin-top: 16px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    
+    .contact-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(110, 231, 183, 0.3);
+      text-decoration: none;
+    }
+    
+    .features {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      margin-top: 24px;
+    }
+    
+    .feature {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid #1e1e2e;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    .feature-icon {
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+    
+    .feature-title {
+      color: #f1f5f9;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+    
+    .feature-desc {
+      color: #64748b;
+      font-size: 13px;
+      margin: 0;
+    }
+    
+    .footer {
+      margin-top: 60px;
+      padding-top: 24px;
+      border-top: 1px solid #1e1e2e;
+      text-align: center;
+      color: #64748b;
+      font-size: 14px;
+    }
+    
+    a {
+      color: #6ee7b7;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    @media (max-width: 600px) {
+      .features {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <span class="logo-text">log</span><span class="logo-sub">31</span>
+    </div>
+    
+    <h1>Support</h1>
+    <p class="subtitle">We're here to help</p>
+    
+    <h2>App Features</h2>
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">⏱️</div>
+        <div class="feature-title">Timer Tracking</div>
+        <p class="feature-desc">One-tap start/stop timer for easy logging</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">📝</div>
+        <div class="feature-title">Manual Entry</div>
+        <p class="feature-desc">Log past activities with full details</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">📊</div>
+        <div class="feature-title">Statistics</div>
+        <p class="feature-desc">7 tabs of insights and patterns</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">🔒</div>
+        <div class="feature-title">100% Private</div>
+        <p class="feature-desc">All data stored locally on device</p>
+      </div>
+    </div>
+    
+    <h2>Frequently Asked Questions</h2>
+    
+    <div class="faq-item">
+      <p class="faq-q">Is my data secure?</p>
+      <p class="faq-a">Yes! All data is stored locally on your device only. We never collect, store, or transmit any personal information. Your data never leaves your device.</p>
+    </div>
+    
+    <div class="faq-item">
+      <p class="faq-q">How do I delete my data?</p>
+      <p class="faq-a">Go to Settings → Delete All Data. You can also delete individual entries from the History tab in Statistics.</p>
+    </div>
+    
+    <div class="faq-item">
+      <p class="faq-q">Can I backup my data?</p>
+      <p class="faq-a">Currently, data is stored locally and not included in iCloud backups for privacy. Export feature coming soon.</p>
+    </div>
+    
+    <div class="faq-item">
+      <p class="faq-q">How does the Wellness Score work?</p>
+      <p class="faq-a">The Wellness Score (0-100) is calculated based on: frequency balance, variety in activities, goal adherence, and mood patterns.</p>
+    </div>
+    
+    <div class="faq-item">
+      <p class="faq-q">What do the streak numbers mean?</p>
+      <p class="faq-a">"Current" shows consecutive days with logged activity. "Best" shows your longest streak ever achieved.</p>
+    </div>
+    
+    <div class="faq-item">
+      <p class="faq-q">How do I switch between dark and light mode?</p>
+      <p class="faq-a">Go to Settings and toggle the Dark Mode switch.</p>
+    </div>
+    
+    <div class="contact-card">
+      <h3>Still need help?</h3>
+      <p>We typically respond within 24 hours</p>
+      <a href="mailto:swudtech@gmail.com" class="contact-btn">Contact Support</a>
+    </div>
+    
+    <div class="footer">
+      <p>© 2025 LOG31. All rights reserved.</p>
+      <p style="margin-top: 8px;"><a href="privacy-policy.html">Privacy Policy</a></p>
+    </div>
+  </div>
+</body>
+</html>
